@@ -1,0 +1,146 @@
+
+body {
+    margin: 0;
+    background-color:#1B244A;
+    /* text-align: center; */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+#heading-home, #heading-guest {
+    color: white;
+    font-family: Verdana;
+    font-size: 40px;
+    margin: 0px;
+    
+    
+}
+
+.team-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+#score-home {
+    background-color: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    height: 120px;
+    width: 155px;
+    margin-top: 21px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: Cursed Timer ULiL;
+    /* padding: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#score-guest{
+    background-color: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    height: 120px;
+    width: 155px;
+    margin-top: 21px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: Cursed Timer ULiL;
+    /* padding: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 11px;
+    margin-top: 21px;
+    
+}
+
+.buttons button{
+    background: transparent;
+    border: 2px solid white;
+    font-family: Cursed Timer ULiL;
+    color: #9AABD8;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    border-color: #9AABD8;
+    border-radius: 4px;
+    cursor: pointer;
+    /* transition: all 0.2s ease;  */
+
+}
+button:hover {
+    background-color: #9AABD8; /* Change background on hover */
+    color: #1B244A;           /* Change text color on hover to contrast with new background */
+    border-color: #9AABD8;    /* Keep border color consistent or change it */
+    transform: translateY(-2px); /* Slightly move up on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+button:active {
+    background-color: #7a8bb0; /* Darker background when clicked */
+    border-color: #7a8bb0;
+    transform: translateY(0); /* Reset position on click */
+    box-shadow: none;        /* Remove shadow on click */
+}
+
+#new-game {
+    text-align: center; /* This will center the button (which is inline-block by default) */
+    /* margin-top: 50px; Add some space between the scoreboard and the button */
+    /* margin-bottom: 20px; Add some space below the button */
+}
+
+#new-game-btn {
+    background: transparent;
+    border: 2px solid white;
+    font-family: Cursed Timer ULiL;
+    color: #9AABD8;
+    width: 200px;
+    height: 45px;
+    font-size: 18px;
+    border-color: #9AABD8;
+    border-radius: 4px;
+    cursor: pointer;
+     transition: all 0.2s ease; 
+}
+
+#new-game-btn:hover {
+    background-color: #9AABD8; /* Change background on hover */
+    color: #1B244A;           /* Change text color on hover to contrast with new background */
+    border-color: #9AABD8;    /* Keep border color consistent or change it */
+    transform: translateY(-2px); /* Slightly move up on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+#new-game-btn:active {
+    background-color: #7a8bb0; /* Darker background when clicked */
+    border-color: #7a8bb0;
+    transform: translateY(0); /* Reset position on click */
+    box-shadow: none;        /* Remove shadow on click */
+}
+
+.winning-team-highlight {
+    /* Example highlight styles */
+    box-shadow: 0 0 15px 5px rgba(14, 251, 2, 0.7); /* A glow effect */
+    border: 2px solid #ffffff; /* A border around the team column */
+    /* You could also change text color or background for more emphasis */
+    /* For the heading */
+    color: #f5f3f3 !important; /* Make heading color match score, !important to override 'white' */
+}
+
+
+
+
+
